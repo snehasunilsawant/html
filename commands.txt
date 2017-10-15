@@ -1,0 +1,51 @@
+snehasameerrajguru@Sneha MINGW64 ~ (master)
+$ cd Desktop/
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ mkdir test
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ cd test
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ touch index.html
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ touch styles.css
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ to
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ cp index.html index_2.html
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ rm styles.css
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ pwd
+/c/Users/snehasameerrajguru/Desktop/test
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ ls
+commands.txt  index.html  index_2.html
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop/test (master)
+$ cd ..
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ mkdir destination
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ mv test/index_2.html destination/
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ ls test/
+commands.txt  index.html
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ ls destination/
+index_2.html
+
+snehasameerrajguru@Sneha MINGW64 ~/Desktop (master)
+$ rm -rf destination/
