@@ -1,0 +1,44 @@
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo
+$ cd GitHubRepoAssignment/
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment
+$ git init
+Initialized empty Git repository in S:/Coding Dojo/GitHubRepoAssignment/.git/
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment (master)
+$ git add .
+warning: LF will be replaced by CRLF in readme.md.
+The file will have its original line endings in your working directory.
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment (master)
+$ git commit -m "Adding readme file"
+[master (root-commit) 9131798] Adding readme file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment (master)
+$ git remote add origin git@github.com:snehasunilsawant/GitHubRepoAssignment.git
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 248 bytes | 82.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:snehasunilsawant/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+snehasameerrajguru@Sneha MINGW64 /s/Coding Dojo/GitHubRepoAssignment (master)
